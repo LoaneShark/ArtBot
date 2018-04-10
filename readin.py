@@ -22,6 +22,7 @@ from PIL import Image
 import os, os.path, sys, io
 #import zipfile
 
+import namenet
 
 # establish path to wherever the kaggle database is
 # stored locally (uncompressed)
@@ -46,22 +47,34 @@ def main():
 	M = {} 	# metadata (by author)
 	F = {}	# metadata by filename
 	metapath = kagglepath + "train_info.csv"
-	metafile = open(metapath, "r")
+	metafile = open(metapath, "r", encoding='utf-8')
 
 	n = 0
+	N = 79433
 	# store all metadata attribute vectors in M and F dicts
 	## TODO: Fix unreadable character issue (@n = 930)
 	for line in metafile:
 		n += 1
-		if n <= 79433:
-			print(n)
-			print(line)
+		if n <= N:
+			#print(n)
+			#print(line)
 			linedats = line.split(",")
-			M[str(linedats[1])] = [linedats[0][3:]] + linedats[2:-1] + [linedats[-1][:-1]]
-			F[str(linedats[0][3:])] = linedats[1:-1] + [linedats[-1][:-1]]
+			keyM = str(linedats[1])
+			keyF = str(linedats[0])
+			valM = [linedats[0]] + linedats[2:-1] + [linedats[-1][:-1]]
+			valF = linedats[1:-1] + [linedats[-1][:-1]]
 
+			if keyM not in M: 
+				M[keyM] = [valM]
+			else:
+				M[keyM] = M[keyM] + [valM]
 
+			if keyF not in F:
+				F[keyF] = [valF]
+			else:
+				F[keyF] = F[keyF] + [valF]
 
+	namenet.train(M,[-1,-1,-1,-1])
 
 
 
