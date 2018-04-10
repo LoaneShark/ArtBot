@@ -3,6 +3,10 @@
 # CSC 249
 # 
 # v0.0		4/4/18
+#-----------------------------------
+#
+# Required packages: numpy, scipy
+#
 ####################################
 
 # Reads in the paintings
@@ -11,7 +15,11 @@
 
 import numpy as np 
 import scipy
-import gzip
+
+from PIL import Image
+#import pygame
+import os, sys, io
+#import zipfile
 
 
 # establish path to wherever the kaggle database is
@@ -19,7 +27,12 @@ import gzip
 kagglepath = "../kaggle/"
 
 def main():
-	x = 5
+
+	# open an image, for example
+	test = kagglepath + "train_1/1.jpg"
+	img = Image.open(test)
+	img.show()
+
 
 
 if __name__ == "__main__":
