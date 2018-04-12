@@ -9,7 +9,7 @@ from textgenrnn import textgenrnn
 
 #sys.setdefaultencoding('utf8')
 
-def train(metadata, params):
+def train(metadata, params, save=False):
 	[author, style, genre, date] = params
 	namegen = textgenrnn()
 
@@ -44,4 +44,7 @@ def train(metadata, params):
 	# train neural net
 	namegen.train_on_texts(data, verbose=0)
 	print("Generating titles...\n")
-	namegen.generate(4,temperature=0.69)
+	if save:
+		filename = "name_weights_" + str(len(data)) + ".hdf5"
+		namegen.save(filename)
+	namegen.generate(4,temperature=0.420)

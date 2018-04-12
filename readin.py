@@ -50,7 +50,8 @@ def main():
 	metafile = open(metapath, "r", encoding='utf-8')
 
 	n = 0
-	N = 79433
+	#N = 79433
+	N = 10000
 	# store all metadata attribute vectors in M and F dicts
 	## TODO: Fix unreadable character issue (@n = 930)
 	for line in metafile:
@@ -74,7 +75,7 @@ def main():
 			else:
 				F[keyF] = F[keyF] + [valF]
 
-	namenet.train(M,[-1,-1,-1,-1])
+	namenet.train(M,[-1,-1,-1,-1],save=True)
 
 
 
