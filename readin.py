@@ -41,7 +41,7 @@ def main():
 		subpath = kagglepath + "train_" + str(i) + "/"
 		Ni = len([name for name in os.listdir(subpath) if os.path.isfile(name)])
 		N += Ni
-	print("N: " + str(N))
+	#print("N: " + str(N))
 	
 	# parse through and store all metadata in a dictionary 
 	M = {} 	# metadata (by author)
@@ -75,7 +75,7 @@ def main():
 			else:
 				F[keyF] = F[keyF] + [valF]
 
-	namenet.train(M,[-1,-1,-1,-1],save=True)
+	namenet.train(M,[-1,"Surrealism",-1,-1],save=True)
 
 
 

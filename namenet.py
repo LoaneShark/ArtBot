@@ -45,6 +45,13 @@ def train(metadata, params, save=False):
 	namegen.train_on_texts(data, verbose=0)
 	print("Generating titles...\n")
 	if save:
-		filename = "name_weights_" + str(len(data)) + ".hdf5"
+		if author != -1:
+			ext += str(author) + "_"
+		if style != -1:
+			ext += str(style) + "_"
+		if genre != -1:
+			ext += str(genre) + "_"
+		if date != -1:
+			ext += str(date) + "_"
 		namegen.save(filename)
 	namegen.generate(4,temperature=0.420)
