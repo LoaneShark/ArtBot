@@ -41,8 +41,8 @@ t_train = transforms.Compose([
     transforms.Resize((64,64))    
 ])
 
-dataset_folder = '/home/bbeyers/Documents/CSC249_project/mnist/training'
-dataset_csv = '/home/bbeyers/Documents/CSC249_project/mnist/training.csv'
+dataset_folder = '/public/bbeyers/CSC249_project/mnist/training'
+dataset_csv = '/public/bbeyers/CSC249_project/mnist/training.csv'
 
 if args.quick_load:
     train_dataset = ImageDataset(dataset_folder, dataset_csv, transform = t_load, train_transform = t_train, stop_after=args.batch_size)
@@ -176,7 +176,7 @@ for epoch in range(start_epoch, start_epoch + args.epochs):
         if torch.cuda.is_available():
             noise = noise.cuda()
         fake_images = generator(noise)    
-        utils.save_image(fake_images.data, '/home/bbeyers/Documents/CSC249_project/%s/fake_samples_epoch_%03d.png' % ('long_binary', epoch))
+        utils.save_image(fake_images.data, '/public/bbeyers/Documents/CSC249_project/%s/fake_samples_epoch_%03d.png' % ('long_binary', epoch))
     
     if epoch % 5 == 0:
         G_avg_loss = G_total_loss / len(train_loader)
@@ -190,7 +190,7 @@ for epoch in range(start_epoch, start_epoch + args.epochs):
             'G_opt' : g_optimizer.state_dict(),
             },
             True,
-            '/home/bbeyers/Documents/CSC249_project/long_binary/%d.pth' % epoch            
+            '/public/bbeyers/Documents/CSC249_project/long_binary/%d.pth' % epoch            
             )
         else:
             save_checkpoint({
@@ -202,7 +202,7 @@ for epoch in range(start_epoch, start_epoch + args.epochs):
             'G_opt' : g_optimizer.state_dict(),
             },
             False,
-            '/home/bbeyers/Documents/CSC249_project/long_binary/%d.pth' % epoch            
+            '/public/bbeyers/Documents/CSC249_project/long_binary/%d.pth' % epoch            
             )
         
         

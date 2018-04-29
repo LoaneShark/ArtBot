@@ -14,8 +14,8 @@ class ArtDataset(Dataset):
 
         verbosity = args.verbosity
 
-        image_paths = glob(join('/scratch', 'bbeyers', 'CSC249_project', 'kaggle_128', '*.png')) + \
-                      glob(join('/scratch', 'bbeyers', 'CSC249_project', 'wikiart_128', '*.png'))
+        image_paths = glob(join('/public', 'bbeyers', 'CSC249_project', 'kaggle_128', '*.png')) + \
+                      glob(join('/public', 'bbeyers', 'CSC249_project', 'wikiart_128', '*.png'))
         image_count = len(image_paths)
         print image_count
 
@@ -77,6 +77,3 @@ class ArtDataset(Dataset):
 
         return data
         
-
-
-
