@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{goodfellow2014generative}
+I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio.
+\newblock Generative adversarial nets.
+\newblock In {\em Advances in neural information processing systems}, pages
+  2672--2680, 2014.
+
+\bibitem{krizhevsky2014cifar}
+A.~Krizhevsky, V.~Nair, and G.~Hinton.
+\newblock The cifar-10 dataset.
+\newblock {\em online: http://www. cs. toronto. edu/kriz/cifar. html}, 2014.
+
+\bibitem{lecun2010mnist}
+Y.~LeCun, C.~Cortes, and C.~Burges.
+\newblock Mnist handwritten digit database.
+\newblock {\em AT\&T Labs [Online]. Available: http://yann. lecun.
+  com/exdb/mnist}, 2, 2010.
+
+\bibitem{maas2013rectifier}
+A.~L. Maas, A.~Y. Hannun, and A.~Y. Ng.
+\newblock Rectifier nonlinearities improve neural network acoustic models.
+\newblock In {\em Proc. icml}, volume~30, page~3, 2013.
+
+\bibitem{radford2015unsupervised}
+A.~Radford, L.~Metz, and S.~Chintala.
+\newblock Unsupervised representation learning with deep convolutional
+  generative adversarial networks.
+\newblock {\em arXiv preprint arXiv:1511.06434}, 2015.
+
+\bibitem{zeiler2014visualizing}
+M.~D. Zeiler and R.~Fergus.
+\newblock Visualizing and understanding convolutional networks.
+\newblock In {\em European conference on computer vision}, pages 818--833.
+  Springer, 2014.
+
+\end{thebibliography}
