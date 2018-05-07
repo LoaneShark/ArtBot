@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
 
 \bibitem{goodfellow2014generative}
 I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
@@ -6,6 +6,16 @@ I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
 \newblock Generative adversarial nets.
 \newblock In {\em Advances in neural information processing systems}, pages
   2672--2680, 2014.
+
+\bibitem{ishibashi2018associative}
+Y.~Ishibashi and H.~Miyamori.
+\newblock Associative conversation model: Generating visual information from
+  textual information, 2018.
+
+\bibitem{kingma2014adam}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
 
 \bibitem{krizhevsky2014cifar}
 A.~Krizhevsky, V.~Nair, and G.~Hinton.
@@ -23,6 +33,12 @@ A.~L. Maas, A.~Y. Hannun, and A.~Y. Ng.
 \newblock Rectifier nonlinearities improve neural network acoustic models.
 \newblock In {\em Proc. icml}, volume~30, page~3, 2013.
 
+\bibitem{paszke2017automatic}
+A.~Paszke, S.~Gross, S.~Chintala, G.~Chanan, E.~Yang, Z.~DeVito, Z.~Lin,
+  A.~Desmaison, L.~Antiga, and A.~Lerer.
+\newblock Automatic differentiation in pytorch.
+\newblock In {\em NIPS-W}, 2017.
+
 \bibitem{radford2015unsupervised}
 A.~Radford, L.~Metz, and S.~Chintala.
 \newblock Unsupervised representation learning with deep convolutional
@@ -34,5 +50,10 @@ M.~D. Zeiler and R.~Fergus.
 \newblock Visualizing and understanding convolutional networks.
 \newblock In {\em European conference on computer vision}, pages 818--833.
   Springer, 2014.
+
+\bibitem{zhang2017adversarial}
+Y.~{Zhang}, Z.~{Gan}, K.~{Fan}, Z.~{Chen}, R.~{Henao}, D.~{Shen}, and
+  L.~{Carin}.
+\newblock In {\em 34th International Conference on Machine Learning}, 2017.
 
 \end{thebibliography}
