@@ -33,6 +33,13 @@ A.~L. Maas, A.~Y. Hannun, and A.~Y. Ng.
 \newblock Rectifier nonlinearities improve neural network acoustic models.
 \newblock In {\em Proc. icml}, volume~30, page~3, 2013.
 
+\bibitem{mikolov2013distributed}
+T.~Mikolov, I.~Sutskever, K.~Chen, G.~S. Corrado, and J.~Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3111--3119, 2013.
+
 \bibitem{paszke2017automatic}
 A.~Paszke, S.~Gross, S.~Chintala, G.~Chanan, E.~Yang, Z.~DeVito, Z.~Lin,
   A.~Desmaison, L.~Antiga, and A.~Lerer.

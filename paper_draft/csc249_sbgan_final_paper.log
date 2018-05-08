@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.17)  5 MAY 2018 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.17)  8 MAY 2018 16:45
 entering extended mode
 **./csc249_sbgan_final_paper.tex
 (csc249_sbgan_final_paper.tex
@@ -386,59 +386,53 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
  [1{C:/Users/Brad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-<nets1.png, id=53, 276.28218pt x 601.4972pt>
+] [2]
+<nets1.png, id=56, 276.28218pt x 601.4972pt>
 File: nets1.png Graphic file (type png)
 <use nets1.png>
-Package pdftex.def Info: nets1.png  used on input line 144.
+Package pdftex.def Info: nets1.png  used on input line 139.
 (pdftex.def)             Requested size: 213.4209pt x 464.64113pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./nets1.png>]
-<mnist_samples.png, id=69, 398.99063pt x 796.47563pt>
+<mnist_samples.png, id=72, 398.99063pt x 796.47563pt>
 File: mnist_samples.png Graphic file (type png)
 <use mnist_samples.png>
-Package pdftex.def Info: mnist_samples.png  used on input line 159.
-(pdftex.def)             Requested size: 213.4209pt x 426.03127pt.
+Package pdftex.def Info: mnist_samples.png  used on input line 154.
+(pdftex.def)             Requested size: 195.63641pt x 390.5317pt.
 
-Underfull \hbox (badness 1048) in paragraph at lines 167--168
+Underfull \hbox (badness 1048) in paragraph at lines 162--163
 \OT1/ptm/m/n/10 paint-ings formed from the com-bi-na-tion of the Kag-gle
  []
 
-<art_samples.png, id=70, 531.9875pt x 1061.9675pt>
+<art_samples.png, id=73, 531.9875pt x 1061.9675pt>
 File: art_samples.png Graphic file (type png)
 <use art_samples.png>
-Package pdftex.def Info: art_samples.png  used on input line 171.
-(pdftex.def)             Requested size: 213.4209pt x 426.0272pt.
+Package pdftex.def Info: art_samples.png  used on input line 166.
+(pdftex.def)             Requested size: 195.63641pt x 390.52359pt.
 
-Underfull \hbox (badness 1590) in paragraph at lines 183--184
+Underfull \hbox (badness 1590) in paragraph at lines 178--179
 []\OT1/ptm/m/n/10 The sec-ond method was vec-tor arith-metic be-tween
  []
 
 [4 <./mnist_samples.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<interp.png, id=79, 498.36188pt x 597.73312pt>
+<interp.png, id=82, 498.36188pt x 597.73312pt>
 File: interp.png Graphic file (type png)
 <use interp.png>
-Package pdftex.def Info: interp.png  used on input line 189.
+Package pdftex.def Info: interp.png  used on input line 184.
 (pdftex.def)             Requested size: 213.4209pt x 255.97136pt.
-<arith_figure.png, id=80, 674.52pt x 1108.14pt>
+<arith_figure.png, id=83, 674.52pt x 1108.14pt>
 File: arith_figure.png Graphic file (type png)
 <use arith_figure.png>
-Package pdftex.def Info: arith_figure.png  used on input line 198.
-(pdftex.def)             Requested size: 213.4209pt x 350.60464pt.
-<deconv_full.png, id=81, 835.62187pt x 1228.59pt>
+Package pdftex.def Info: arith_figure.png  used on input line 193.
+(pdftex.def)             Requested size: 195.63641pt x 321.40309pt.
+<deconv_full.png, id=84, 835.62187pt x 1228.59pt>
 File: deconv_full.png Graphic file (type png)
 <use deconv_full.png>
-Package pdftex.def Info: deconv_full.png  used on input line 207.
+Package pdftex.def Info: deconv_full.png  used on input line 202.
 (pdftex.def)             Requested size: 213.4209pt x 313.7831pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -449,29 +443,32 @@ Underfull \hbox (badness 3492) in paragraph at lines 4--9
 []\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
  []
 
-[6 <./arith_figure.png> <./deconv_full.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./arith_figure.png> <./deconv_full.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
  [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
  (csc249_sbgan_final_paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 222.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
- 6313 strings out of 493312
- 90734 string characters out of 3138901
- 180607 words of memory out of 3000000
- 9727 multiletter control sequences out of 15000+200000
+ 6315 strings out of 493312
+ 90785 string characters out of 3138901
+ 180652 words of memory out of 3000000
+ 9728 multiletter control sequences out of 15000+200000
  26447 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,26p,2026b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,26p,2073b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -486,9 +483,9 @@ ts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on csc249_sbgan_final_paper.pdf (7 pages, 3717108 bytes).
+Output written on csc249_sbgan_final_paper.pdf (7 pages, 3718042 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
