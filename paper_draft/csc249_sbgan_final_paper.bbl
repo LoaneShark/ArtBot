@@ -1,11 +1,41 @@
 \begin{thebibliography}{10}\itemsep=-1pt
 
+\bibitem{arjovsky2017wasserstein}
+M.~Arjovsky, S.~Chintala, and L.~Bottou.
+\newblock Wasserstein gan.
+\newblock {\em arXiv preprint arXiv:1701.07875}, 2017.
+
+\bibitem{denton2015deep}
+E.~L. Denton, S.~Chintala, R.~Fergus, et~al.
+\newblock Deep generative image models using a￼ laplacian pyramid of
+  adversarial networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1486--1494, 2015.
+
+\bibitem{germain2015made}
+M.~Germain, K.~Gregor, I.~Murray, and H.~Larochelle.
+\newblock Made: Masked autoencoder for distribution estimation.
+\newblock In {\em International Conference on Machine Learning}, pages
+  881--889, 2015.
+
 \bibitem{goodfellow2014generative}
 I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
   A.~Courville, and Y.~Bengio.
 \newblock Generative adversarial nets.
 \newblock In {\em Advances in neural information processing systems}, pages
   2672--2680, 2014.
+
+\bibitem{gulrajani2017improved}
+I.~Gulrajani, F.~Ahmed, M.~Arjovsky, V.~Dumoulin, and A.~C. Courville.
+\newblock Improved training of wasserstein gans.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  5769--5779, 2017.
+
+\bibitem{huang2017stacked}
+X.~Huang, Y.~Li, O.~Poursaeed, J.~Hopcroft, and S.~Belongie.
+\newblock Stacked generative adversarial networks.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, volume~2, page~4, 2017.
 
 \bibitem{ishibashi2018associative}
 Y.~Ishibashi and H.~Miyamori.
@@ -17,10 +47,27 @@ D.~P. Kingma and J.~Ba.
 \newblock Adam: A method for stochastic optimization.
 \newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
 
+\bibitem{kingma2014semi}
+D.~P. Kingma, S.~Mohamed, D.~J. Rezende, and M.~Welling.
+\newblock Semi-supervised learning with deep generative models.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  3581--3589, 2014.
+
+\bibitem{kingma2013auto}
+D.~P. Kingma and M.~Welling.
+\newblock Auto-encoding variational bayes.
+\newblock {\em arXiv preprint arXiv:1312.6114}, 2013.
+
 \bibitem{krizhevsky2014cifar}
 A.~Krizhevsky, V.~Nair, and G.~Hinton.
 \newblock The cifar-10 dataset.
 \newblock {\em online: http://www. cs. toronto. edu/kriz/cifar. html}, 2014.
+
+\bibitem{larochelle2011neural}
+H.~Larochelle and I.~Murray.
+\newblock The neural autoregressive distribution estimator.
+\newblock In {\em Proceedings of the Fourteenth International Conference on
+  Artificial Intelligence and Statistics}, pages 29--37, 2011.
 
 \bibitem{lecun2010mnist}
 Y.~LeCun, C.~Cortes, and C.~Burges.
@@ -40,6 +87,11 @@ T.~Mikolov, I.~Sutskever, K.~Chen, G.~S. Corrado, and J.~Dean.
 \newblock In {\em Advances in neural information processing systems}, pages
   3111--3119, 2013.
 
+\bibitem{mirza2014conditional}
+M.~Mirza and S.~Osindero.
+\newblock Conditional generative adversarial nets.
+\newblock {\em arXiv preprint arXiv:1411.1784}, 2014.
+
 \bibitem{paszke2017automatic}
 A.~Paszke, S.~Gross, S.~Chintala, G.~Chanan, E.~Yang, Z.~DeVito, Z.~Lin,
   A.~Desmaison, L.~Antiga, and A.~Lerer.
@@ -52,11 +104,23 @@ A.~Radford, L.~Metz, and S.~Chintala.
   generative adversarial networks.
 \newblock {\em arXiv preprint arXiv:1511.06434}, 2015.
 
+\bibitem{reed2016generative}
+S.~Reed, Z.~Akata, X.~Yan, L.~Logeswaran, B.~Schiele, and H.~Lee.
+\newblock Generative adversarial text to image synthesis.
+\newblock {\em arXiv preprint arXiv:1605.05396}, 2016.
+
 \bibitem{zeiler2014visualizing}
 M.~D. Zeiler and R.~Fergus.
 \newblock Visualizing and understanding convolutional networks.
 \newblock In {\em European conference on computer vision}, pages 818--833.
   Springer, 2014.
+
+\bibitem{zeiler2011adaptive}
+M.~D. Zeiler, G.~W. Taylor, and R.~Fergus.
+\newblock Adaptive deconvolutional networks for mid and high level feature
+  learning.
+\newblock In {\em Computer Vision (ICCV), 2011 IEEE International Conference
+  on}, pages 2018--2025. IEEE, 2011.
 
 \bibitem{zhang2017adversarial}
 Y.~{Zhang}, Z.~{Gan}, K.~{Fan}, Z.~{Chen}, R.~{Henao}, D.~{Shen}, and
