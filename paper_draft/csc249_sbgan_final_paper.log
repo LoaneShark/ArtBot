@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.17)  30 APR 2018 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.17)  12 MAY 2018 16:03
 entering extended mode
 **./csc249_sbgan_final_paper.tex
 (csc249_sbgan_final_paper.tex
@@ -262,7 +262,38 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
-(csc249_sbgan_final_paper.aux)
+(csc249_sbgan_final_paper.aux
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+)
 \openout1 = `csc249_sbgan_final_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -280,8 +311,7 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
@@ -335,64 +365,128 @@ LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
- [4321{C:/Users/Brad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+
+Underfull \vbox (badness 3407) has occurred while \output is active []
+
+ [1{C:/Users/Brad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
-(csc249_sbgan_final_paper.bbl [4322])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
- [4323
+] [2]
+<nets1.png, id=78, 276.28218pt x 601.4972pt>
+File: nets1.png Graphic file (type png)
+<use nets1.png>
+Package pdftex.def Info: nets1.png  used on input line 130.
+(pdftex.def)             Requested size: 189.70947pt x 413.01433pt.
+ [3 <./nets1.png>]
+<mnist_samples.png, id=94, 398.99063pt x 796.47563pt>
+File: mnist_samples.png Graphic file (type png)
+<use mnist_samples.png>
+Package pdftex.def Info: mnist_samples.png  used on input line 145.
+(pdftex.def)             Requested size: 183.7789pt x 366.85721pt.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+Underfull \hbox (badness 1048) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 paint-ings formed from the com-bi-na-tion of the Kag-gle
+ []
+
+<art_samples.png, id=95, 531.9875pt x 1061.9675pt>
+File: art_samples.png Graphic file (type png)
+<use art_samples.png>
+Package pdftex.def Info: art_samples.png  used on input line 157.
+(pdftex.def)             Requested size: 183.7789pt x 366.86531pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./mnist_samples.png> <./art_samples.png (PNG copy)>]
+Underfull \hbox (badness 1590) in paragraph at lines 169--170
+[]\OT1/ptm/m/n/10 The sec-ond method was vec-tor arith-metic be-tween
+ []
+
+<interp.png, id=104, 498.36188pt x 597.73312pt>
+File: interp.png Graphic file (type png)
+<use interp.png>
+Package pdftex.def Info: interp.png  used on input line 175.
+(pdftex.def)             Requested size: 213.4209pt x 255.97136pt.
+<arith_figure.png, id=105, 572.1375pt x 894.34125pt>
+File: arith_figure.png Graphic file (type png)
+<use arith_figure.png>
+Package pdftex.def Info: arith_figure.png  used on input line 184.
+(pdftex.def)             Requested size: 189.70947pt x 296.53911pt.
+<deconv_full.png, id=106, 773.89125pt x 1162.3425pt>
+File: deconv_full.png Graphic file (type png)
+<use deconv_full.png>
+Package pdftex.def Info: deconv_full.png  used on input line 193.
+(pdftex.def)             Requested size: 160.06747pt x 240.41006pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./interp.png>] (csc249_sbgan_final_paper.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./arith_figure.png> <./deconv_full.png>]
+Missing character: There is no ï in font ptmr7t!
+Missing character: There is no ¿ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 3492) in paragraph at lines 22--27
+[]\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (csc249_sbgan_final_paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 152.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 213.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
  ) 
 Here is how much of TeX's memory you used:
- 6255 strings out of 493312
- 89900 string characters out of 3138901
- 179774 words of memory out of 3000000
- 9697 multiletter control sequences out of 15000+200000
- 28073 words of font info for 69 fonts, out of 3000000 for 9000
+ 6337 strings out of 493312
+ 91248 string characters out of 3138901
+ 183098 words of memory out of 3000000
+ 9739 multiletter control sequences out of 15000+200000
+ 26447 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,26p,1183b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,26p,2073b,470s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on csc249_sbgan_final_paper.pdf (3 pages, 142146 bytes).
+c/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on csc249_sbgan_final_paper.pdf (7 pages, 3714903 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

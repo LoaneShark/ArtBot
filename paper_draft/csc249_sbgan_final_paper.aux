@@ -17,33 +17,93 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{radford2015unsupervised}
+\citation{kingma2013auto}
+\citation{kingma2014semi}
+\citation{larochelle2011neural}
+\citation{germain2015made}
 \citation{goodfellow2014generative}
+\citation{huang2017stacked}
+\citation{denton2015deep}
+\citation{reed2016generative}
 \citation{radford2015unsupervised}
+\citation{gulrajani2017improved}
+\citation{reed2016generative}
+\citation{arjovsky2017wasserstein}
 \citation{radford2015unsupervised}
+\citation{zeiler2011adaptive}
 \citation{zeiler2014visualizing}
 \citation{goodfellow2014generative}
 \citation{goodfellow2014generative}
 \citation{krizhevsky2014cifar}
 \citation{radford2015unsupervised}
 \citation{maas2013rectifier}
-\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{4321}{section.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related Work}{4321}{section.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\hskip -1em.\nobreakspace  {}Generative Adversarial Networks}{4321}{subsection.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\hskip -1em.\nobreakspace  {}Deep Convolutional Generative Adversarial Networks}{4321}{subsection.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{1}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related Work}{1}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\hskip -1em.\nobreakspace  {}Generative Adversarial Networks}{1}{subsection.2.1}}
+\citation{mikolov2013distributed}
+\citation{radford2015unsupervised}
+\citation{zeiler2011adaptive}
 \citation{zeiler2014visualizing}
 \citation{lecun2010mnist}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\hskip -1em.\nobreakspace  {}Deep Convolutional Generative Adversarial Networks}{2}{subsection.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}\hskip -1em.\nobreakspace  {}Network Analysis Methods}{2}{subsection.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Methods}{2}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.\nobreakspace  {}Data}{2}{subsection.3.1}}
 \citation{radford2015unsupervised}
+\citation{maas2013rectifier}
+\citation{maas2013rectifier}
+\citation{paszke2017automatic}
+\citation{kingma2014adam}
+\citation{radford2015unsupervised}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Model Construction}{3}{subsection.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Experiments}{3}{section.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A diagram representing the network structure of the discriminator and generator. The colored blocks, read top to bottom, describe the sequence of layers in the network and give the parameters of the convolution and transpose convolution layers. Each convolution or transpose convolution layer is labeled with its number of filters, kernel size, stride, and padding.}}{3}{figure.1}}
+\newlabel{fig:long}{{1}{3}{A diagram representing the network structure of the discriminator and generator. The colored blocks, read top to bottom, describe the sequence of layers in the network and give the parameters of the convolution and transpose convolution layers. Each convolution or transpose convolution layer is labeled with its number of filters, kernel size, stride, and padding}{figure.1}{}}
+\newlabel{fig:onecol}{{1}{3}{A diagram representing the network structure of the discriminator and generator. The colored blocks, read top to bottom, describe the sequence of layers in the network and give the parameters of the convolution and transpose convolution layers. Each convolution or transpose convolution layer is labeled with its number of filters, kernel size, stride, and padding}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}Training on MNIST}{3}{subsection.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Sample output from our network trained on MNIST for 15 epochs. Samples show clear signs that the network has learned salient features of the dataset, and most samples are plausible handwritten digits. Highlighted with red boxes are samples showing ambiguity between classes of digits.}}{4}{figure.2}}
+\newlabel{fig:long}{{2}{4}{Sample output from our network trained on MNIST for 15 epochs. Samples show clear signs that the network has learned salient features of the dataset, and most samples are plausible handwritten digits. Highlighted with red boxes are samples showing ambiguity between classes of digits}{figure.2}{}}
+\newlabel{fig:onecol}{{2}{4}{Sample output from our network trained on MNIST for 15 epochs. Samples show clear signs that the network has learned salient features of the dataset, and most samples are plausible handwritten digits. Highlighted with red boxes are samples showing ambiguity between classes of digits}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Training on Art}{4}{subsection.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Sample output from our network trained on our art dataset for 100 epochs. Samples show several features which are visually similar to artwork produced by humans such as interesting color palettes, use of shape and form, as well as globally coherent composition in some cases.}}{4}{figure.3}}
+\newlabel{fig:long}{{3}{4}{Sample output from our network trained on our art dataset for 100 epochs. Samples show several features which are visually similar to artwork produced by humans such as interesting color palettes, use of shape and form, as well as globally coherent composition in some cases}{figure.3}{}}
+\newlabel{fig:onecol}{{3}{4}{Sample output from our network trained on our art dataset for 100 epochs. Samples show several features which are visually similar to artwork produced by humans such as interesting color palettes, use of shape and form, as well as globally coherent composition in some cases}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Learned Representation Analysis}{5}{subsection.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The results of smooth linear interpolation between points in $ G $'s input space. 12 noise samples that created visually and artistically distinct images when passed through $ G $ were selected. At the start of each row is the image created by passing one of those samples through $ G $. The rest of the row shows the images resulting from smooth linear interpolation between the samples. The last row shows images resulting from interpolation between the sample from the last row and the sample from the first row. }}{5}{figure.4}}
+\newlabel{fig:long}{{4}{5}{The results of smooth linear interpolation between points in $ G $'s input space. 12 noise samples that created visually and artistically distinct images when passed through $ G $ were selected. At the start of each row is the image created by passing one of those samples through $ G $. The rest of the row shows the images resulting from smooth linear interpolation between the samples. The last row shows images resulting from interpolation between the sample from the last row and the sample from the first row}{figure.4}{}}
+\newlabel{fig:onecol}{{4}{5}{The results of smooth linear interpolation between points in $ G $'s input space. 12 noise samples that created visually and artistically distinct images when passed through $ G $ were selected. At the start of each row is the image created by passing one of those samples through $ G $. The rest of the row shows the images resulting from smooth linear interpolation between the samples. The last row shows images resulting from interpolation between the sample from the last row and the sample from the first row}{figure.4}{}}
+\citation{mirza2014conditional}
+\citation{ishibashi2018associative}
+\citation{zhang2017adversarial}
 \bibstyle{ieee}
 \bibdata{sbgan}
-\bibcite{goodfellow2014generative}{1}
-\bibcite{krizhevsky2014cifar}{2}
-\bibcite{lecun2010mnist}{3}
-\bibcite{maas2013rectifier}{4}
-\bibcite{radford2015unsupervised}{5}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}\hskip -1em.\nobreakspace  {}Network Analysis Methods}{4322}{subsection.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Methods}{4322}{section.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.\nobreakspace  {}Data}{4322}{subsection.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Model Construction}{4322}{subsection.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Experiments}{4322}{section.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Conclusion}{4322}{section.5}}
-\bibcite{zeiler2014visualizing}{6}
+\bibcite{arjovsky2017wasserstein}{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The results of our experiments with vector arithmetic in $ G $'s input space. Vector arithmetic does appear to preserve some properties of $ G(z_1) $ and $ G(z_3) $, but the effects are largely unpredictable.}}{6}{figure.5}}
+\newlabel{fig:long}{{5}{6}{The results of our experiments with vector arithmetic in $ G $'s input space. Vector arithmetic does appear to preserve some properties of $ G(z_1) $ and $ G(z_3) $, but the effects are largely unpredictable}{figure.5}{}}
+\newlabel{fig:onecol}{{5}{6}{The results of our experiments with vector arithmetic in $ G $'s input space. Vector arithmetic does appear to preserve some properties of $ G(z_1) $ and $ G(z_3) $, but the effects are largely unpredictable}{figure.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Conclusion}{6}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}\hskip -1em.\nobreakspace  {}Future Work}{6}{subsection.5.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Output from a 'deconvnet' which reverses $ D $'s architecture to produce visualizations of the activations induced by passing the input image forward through $ D $. Only 16 filters from each convolution layer are show, the actual number of filters is larger and increases in the deeper layers.}}{6}{figure.6}}
+\newlabel{fig:long}{{6}{6}{Output from a 'deconvnet' which reverses $ D $'s architecture to produce visualizations of the activations induced by passing the input image forward through $ D $. Only 16 filters from each convolution layer are show, the actual number of filters is larger and increases in the deeper layers}{figure.6}{}}
+\newlabel{fig:onecol}{{6}{6}{Output from a 'deconvnet' which reverses $ D $'s architecture to produce visualizations of the activations induced by passing the input image forward through $ D $. Only 16 filters from each convolution layer are show, the actual number of filters is larger and increases in the deeper layers}{figure.6}{}}
+\bibcite{denton2015deep}{2}
+\bibcite{germain2015made}{3}
+\bibcite{goodfellow2014generative}{4}
+\bibcite{gulrajani2017improved}{5}
+\bibcite{huang2017stacked}{6}
+\bibcite{ishibashi2018associative}{7}
+\bibcite{kingma2014adam}{8}
+\bibcite{kingma2014semi}{9}
+\bibcite{kingma2013auto}{10}
+\bibcite{krizhevsky2014cifar}{11}
+\bibcite{larochelle2011neural}{12}
+\bibcite{lecun2010mnist}{13}
+\bibcite{maas2013rectifier}{14}
+\bibcite{mikolov2013distributed}{15}
+\bibcite{mirza2014conditional}{16}
+\bibcite{paszke2017automatic}{17}
+\bibcite{radford2015unsupervised}{18}
+\bibcite{reed2016generative}{19}
+\bibcite{zeiler2014visualizing}{20}
+\bibcite{zeiler2011adaptive}{21}
+\bibcite{zhang2017adversarial}{22}
