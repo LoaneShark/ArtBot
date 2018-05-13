@@ -1,29 +1,31 @@
 import csv
+import sys
 from collections import defaultdict
 import json
 from os.path import join
 from glob import glob
+sys.path.append('/home/sloane/ArtBot/meta/')
 
 # kaggle
-def kaggle_analysis(titles={},genres={},styles={},artists={}):
+def kaggle_analysis(titles={},genres={},styles={},artists={},fi = open('/home/sloane/ArtBot/pytorch_gan/meta/kaggle_meta.csv', 'r')):
 
-	with open('kaggle_meta.csv', 'r', encoding='utf8') as fi:
-		reader = csv.reader(fi)
-		next(reader)
+	reader = csv.reader(fi)
+	next(reader)
 
-		for row in reader:
-			artist = row[1]
-			style = row[3]
-			genre = row[4]
-			filename = "k_" + row[0]
+	for row in reader:
+		artist = row[1]
+		style = row[3]
+		genre = row[4]
+		filename = "k_" + row[0]
 
-			genres[filename] = genre
-			styles[filename] = style
-			artists[filename] = artist
+		genres[filename] = genre
+		styles[filename] = style
+		artists[filename] = artist
 
-			title = row[2]
-			titles[filename] = title
-	
+		title = row[2]
+		titles[filename] = title
+	fi.close()
+
 	return (titles, genres, styles, artists)
 
 # wikiart
@@ -99,6 +101,6 @@ def wikiart_analysis(titles={},genres={},styles={},artists={}):
         #'has_material' : has_material,
         #'techniques' : techniques,
         #'has_technique' : has_technique
-    }
+    #}
     
 	return (titles, genres, styles, artists)

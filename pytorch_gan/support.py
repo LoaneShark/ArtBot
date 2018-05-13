@@ -6,12 +6,13 @@ import torchvision
 from torchvision import utils
 from BasicDiscriminator import BasicDiscriminator
 from BasicGenerator import BasicGenerator
+from FeatureExtractor import FeatureExtractor
 from torch.autograd import Variable
 from random import randint
 import shutil
 
 
-def train_D(D, G, opt, data, args, train_fake = True):
+def train_D(D, G, Ex, opt, data, args, train_fake = True):
     cuda = torch.cuda.is_available()
     noise_dim = args.noise_dim
     dual = args.dual_discrim
@@ -228,7 +229,7 @@ def gen_class_label(batch_size, classes = 10, vector_size = None, target_class =
     else:
         return class_label
 
-def save_samples(G, folder, filename, args, num_imgs = None):
+def save_samples(G, Ex, folder, filename, args, num_imgs = None):
     cuda = torch.cuda.is_available()
     noise_dim = args.noise_dim
     dual = args.dual_discrim
@@ -261,4 +262,16 @@ def save_samples(G, folder, filename, args, num_imgs = None):
             inp = inp.cuda()
 
         fake_images = G(inp)
+
+        seedfile = open('%s/%s_seeds.txt' % (folder,filename),'w+')
+        seedfile.seek(0)
+        features = Ex(fake_images)
+        features = features.data
+        seeds = [''.join([str(round(x,2)*10)+"_" for x in vec[:,0,0]]) for vec in features]
+        seeds = [prefix[:-1] for prefix in seeds]
+
+        for seed in seeds:
+            seedfile.write("\n%s" % seed)
+        seedfile.close()
+
         utils.save_image(fake_images.data, '%s/%s.png' % (folder, filename))

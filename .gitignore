@@ -33,6 +33,7 @@ $RECYCLE.BIN/
 
 # ArtBot metadata folder
 *.csv
+**/meta/
 *_meta/
 
 # Files that might appear in the root of a volume

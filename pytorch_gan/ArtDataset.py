@@ -1,4 +1,5 @@
 import os
+import re
 from os.path import join, split
 import torch
 import numpy as np
@@ -14,7 +15,7 @@ class ArtDataset(Dataset):
 
         verbosity = args.verbosity
 
-        image_paths = glob(join('/public', 'bbeyers', 'CSC249_project', 'kaggle_128', '*.png')) + \
+        image_paths = glob(join('/public', 'bbeyers', 'CSC249_project', 'kaggle_128', '*.jpg')) + \
                       glob(join('/public', 'bbeyers', 'CSC249_project', 'wikiart_128', '*.png'))
         image_count = len(image_paths)
         print image_count
@@ -39,6 +40,11 @@ class ArtDataset(Dataset):
 
         self.images = image_paths
 
+        #regex = re.compile(r'.*(w|k)_[0-9]*\.png')
+        #self.filenames = filter(regex.match,image_paths)
+        self.filenames = [path.split('/')[5] for path in image_paths]
+        self.is_stored = [False]*len(self.filenames)
+
     def __len__(self):
         return len(self.images)
 
@@ -46,6 +52,8 @@ class ArtDataset(Dataset):
         # im = self.images[idx]
         # im = Image.fromarray(im)
         im = Image.open(self.images[idx])
+        fname = self.filenames[idx]
+        stored = self.is_stored[idx]
         im = im.convert('RGB')
         w, h = im.size
         pad = [0,0,0,0]
@@ -72,7 +80,9 @@ class ArtDataset(Dataset):
 
 
         data = {
-            'image' : im_tensor
+            'image' : im_tensor,
+            'filename' : fname,
+            'is_stored': stored
         }
 
         return data
